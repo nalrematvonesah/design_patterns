@@ -1,6 +1,6 @@
 package org.example;
 
-
+// Assignment 1
 // 1. Product
 public class Employee {
     private String name;
