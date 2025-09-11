@@ -3,10 +3,10 @@ package org.example;
 
 public class Program {
     public static void main(String[] args) {
-        EmployeeDirector director = new EmployeeDirector();
-        Employee salesMan = director.createCustomEmployee("Kolya", 20, "Sales");
-        Employee dev = director.createCustomEmployee("Sanya", 19, "IT");
-        System.out.println(salesMan);
-        System.out.println(dev);
+        Director director = new Director();
+        EmployeeBuilder builder = new EmployeeBuilder();
+        director.constructEmployee(builder);
+        Employee employee = builder.getResult();
+        System.out.println(employee.print());
     }
 }
