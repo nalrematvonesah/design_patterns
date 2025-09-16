@@ -1,4 +1,4 @@
-package org.example;
+package org.example.builder_pattern;
 
 public class EmployeeBuilder extends Builder {
     private String name;

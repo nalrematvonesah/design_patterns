@@ -1,4 +1,4 @@
-package org.example;
+package org.example.builder_pattern;
 
 // Assignment 1
 // 1. Product
