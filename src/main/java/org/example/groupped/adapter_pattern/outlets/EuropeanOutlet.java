@@ -1,6 +1,6 @@
-package org.example.adapter_pattern.outlets;
+package org.example.groupped.adapter_pattern.outlets;
 
-import org.example.adapter_pattern.plugs.EuropeanPlug;
+import org.example.groupped.adapter_pattern.plugs.EuropeanPlug;
 
 public class EuropeanOutlet {
     private boolean european;
