@@ -2,9 +2,11 @@ package org.example.bridge_pattern.notifications;
 
 import org.example.bridge_pattern.senders.IMessageSender;
 
-public class LowPriorityNotification extends Notification {
+public class LowPriorityNotification implements Notification {
+    protected IMessageSender sender;
+
     public LowPriorityNotification(IMessageSender sender) {
-        super(sender);
+        this.sender = sender;
     }
 
     public void send(String title, String message) {
